@@ -27,8 +27,8 @@ const ImageLayer = ({
         y: e.target.y(),
       };
 
-      onImageTransform(draggingImage.id, newAttrs); // Update image attributes
-      setDraggingImage(null); // Reset dragging image
+      onImageTransform(draggingImage.id, newAttrs);
+      setDraggingImage(null);
     }
   };
 

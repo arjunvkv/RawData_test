@@ -15,10 +15,13 @@ const InstructionModal = ({ onClose }) => {
         <p className="mb-4">
           Welcome to the Canvas Board application. Here you can:
           <ul className="list-disc list-inside">
-            <li>Select images from the sidebar.</li>
-            <li>Drag and drop them onto the canvas.</li>
-            <li>Resize and move images as needed.</li>
-            <li>Use the tools provided to enhance your work.</li>
+            <li>Drag and drop the Images onto the canvas.</li>
+            <li>
+              Click the image to Scale, Translate, or Rotate the images as
+              needed.
+            </li>
+            <li>Right-click the image to draw or share.</li>
+            <li>Visit /display to see the realtime sharing</li>
           </ul>
         </p>
         <button
